@@ -1,8 +1,8 @@
 ﻿Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
-$domain_name = "CORP"  #domain name
-$path_to_root = "\\dcspb\root" #Path to profile
+$domain_name = "#"  #domain name
+$path_to_root = "#" #Path to profile
 
 Function Search(){
     $PC_list.Items.Clear()
